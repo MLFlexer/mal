@@ -18,4 +18,6 @@ To install copy the mal function into your zsh config (I have mine in a folder c
 Make sure to source the function in your config.  
 Then create a file called .aliases.  
 Make save an envoirement variable $ALIASES_FILE, which is a path to the .aliases file.  
-Restart the terminal and try it out!
+Restart the terminal and try it out!  
+
+If you need inspiration to how I have set it up, checkout my dotfiles: https://github.com/MLFlexer/.dotfiles
