@@ -1,9 +1,42 @@
 # mal
 mal - a small zsh function to easily manage aliases.
 
-## preview
+## Preview
 ![](https://github.com/MLFlexer/mal/blob/main/preview.gif)
-https://asciinema.org/a/uH0zyJwnWNN6ihImMvFwMGrMb
+https://asciinema.org/a/uH0zyJwnWNN6ihImMvFwMGrMb  
+No more:
+```
+$ vim ~/.zshrc
+$ source ~/.zshrc
+```
+To edit your aliases.
+
+### Create, rename, change or delete aliases with a single command.  
+#### Create alias:
+```
+mal <alias_name> <command>
+```
+#### Rename alias:
+```
+mal -r <old_alias_name> <new_alias_name>
+```
+#### Change alias:
+```
+mal -c <alias_name> <new_command>
+```
+#### Delete alias:
+```
+mal -dn <alias_name>
+```
+### Can’t remember the alias name?
+#### Execute alias interactively via. fzf:
+```
+mal -e
+```
+#### Delete alias interactively via. fzf:
+```
+mal -d
+```
 
 # Installation
 ## Dependencies
