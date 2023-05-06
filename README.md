@@ -11,7 +11,7 @@ $ source ~/.zshrc
 ```
 To edit your aliases.
 
-### Create, rename, change or delete aliases with a single command.  
+### Create, rename, change or delete aliases with a 🔥single command🔥 
 #### Create alias:
 ```
 mal <alias_name> <command>
