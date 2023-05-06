@@ -16,26 +16,37 @@ To edit your aliases.
 ```
 mal <alias_name> <command>
 ```
-#### Rename alias:
+#### Change alias command via. fzf:
 ```
-mal -r <old_alias_name> <new_alias_name>
+mal -c
 ```
-#### Change alias:
+#### Rename alias via. fzf:
 ```
-mal -c <alias_name> <new_command>
+mal -r
 ```
-#### Delete alias:
+#### Delete alias via. fzf:
 ```
-mal -dn <alias_name>
+mal -d
 ```
-### Can’t remember the alias name?
+#### List all aliases:
+```
+mal -l
+```
 #### Execute alias interactively via. fzf:
 ```
 mal -e
 ```
-#### Delete alias interactively via. fzf:
+#### Rename alias:
 ```
-mal -d
+mal -rn <old_alias_name> <new_alias_name>
+```
+#### Change alias:
+```
+mal -cc <alias_name> <new_command>
+```
+#### Delete alias:
+```
+mal -dn <alias_name>
 ```
 
 # Installation
