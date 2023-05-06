@@ -2,6 +2,7 @@
 mal - a small zsh function to easily manage aliases.
 
 ## preview
+![](https://github.com/MLFlexer/mal/blob/main/preview.gif)
 https://asciinema.org/a/uH0zyJwnWNN6ihImMvFwMGrMb
 
 # Installation
